@@ -17,4 +17,3 @@ function logWhisper(string){
   console.log(string.toLowerCase());
 }
 logWhisper("I think I just spotted my error I didnt do the camelCase")
-

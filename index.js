@@ -24,3 +24,10 @@ function sayHiToGrandma(string){
   }
 }
 sayHiToGrandma("this is lowercase");
+
+function sayHiToGrandma(string){
+  if(string ===string.toUpperCase()){
+    return ("YES INDEED!");
+  }
+}
+sayHiToGrandma("I AM UPPERCASE");

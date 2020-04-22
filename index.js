@@ -23,7 +23,7 @@ function sayHiToGrandma(string){
     return ("I can't hear you!");
   }
 }
-sayHiToGrandma("I can't hear you!");
+sayHiToGrandma("i am lowercase");
 
 function sayHiToGrandma(string){
   if(string ===string.toUpperCase()){

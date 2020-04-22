@@ -18,12 +18,7 @@ function logWhisper(string){
 }
 logWhisper("I think I just spotted my error I didnt do the camelCase")
 
-function sayHiToGrandma(string){
-  if(string ===string.toLowerCase()){
-    return ("I can't hear you!");
-  }
-}
-sayHiToGrandma("i am lowercase");
+
 
 function sayHiToGrandma(string){
   if(string ===string.toUpperCase()){

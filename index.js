@@ -22,7 +22,7 @@ logWhisper("I think I just spotted my error I didnt do the camelCase")
 
 function sayHiToGrandma(string){
   if(string ===string.toUpperCase()){
-    return ("YES INDEED!");
+    return ("YES INDEED!")
   }
 }
 sayHiToGrandma("HELLO");

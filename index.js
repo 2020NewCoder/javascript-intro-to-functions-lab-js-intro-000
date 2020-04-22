@@ -17,3 +17,14 @@ function logWhisper(string){
   console.log(string.toLowerCase());
 }
 logWhisper("I think I just spotted my error I didnt do the camelCase")
+
+function sayHiToGrandma(string){
+  if(string===string.toLowerCase()){
+    return ("I can't hear you!");
+  }else if(string===string.toUpperCase()){
+    return ("YES INDEED!");
+  }else if(string==="I love you, Grandma."){
+    return ("I love you, too.");
+  }
+}
+sayHiToGrandma("hello");

@@ -25,7 +25,7 @@ function sayHiToGrandma(string){
     return ("YES INDEED!");
   }
 }
-sayHiToGrandma("I AM UPPERCASE");
+sayHiToGrandma("what is happening");
 
 function sayHiToGrandma(string){
   if(string ==="I love you, Grandma."){
